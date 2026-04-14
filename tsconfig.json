@@ -17,10 +17,9 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["../projects/*/prototype/*"],
+      "@/*": ["./src/project/*"],
       "@lib/*": ["./src/lib/*"]
-    },
-    "ignoreDeprecations": "6.0"
+    }
   },
-  "include": ["src", "../projects/*/prototype"]
+  "include": ["src"]
 }
